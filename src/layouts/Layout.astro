@@ -1,0 +1,33 @@
+---
+import { Font } from "astro:assets";
+import Credits from "@components/Credits.astro";
+import "../styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Testimonial Card | GreatFrontend</title>
+		<Font cssVariable="--font-noto-sans" preload/>
+	</head>
+	<body>
+		<main class="w-full h-screen py-50 flex justify-center items-start bg-gradient">
+			<slot />
+		</main>
+		<Credits/>
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>

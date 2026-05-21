@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+	--color-*: initial;
+	--color-white: #fff;
+	--color-neutral-900: #171717;
+	--color-neutral-600: #525252;
+	--color-gradient-from: #f9fafb;
+	--color-gradient-to: #d2d6db;
+	--color-gray: #d7d9d8;
+}
+
+@layer utilities {
+	.bg-gradient {
+		background-image: linear-gradient(
+			148deg,
+			var(--color-gradient-from) 8.89%,
+			var(--color-gradient-to) 100.48%
+		);
+	}
+}
