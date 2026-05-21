@@ -12,7 +12,6 @@ Pixel-perfect testimonial cards built with Astro and Tailwind, using Biome for f
 - Colors were added and used as part of the Tailwind theme, including the gradient as a utility class.
 - Only necessary subset of fonts were used to reduce the footprint.
 - Name and handle clamp in one line meanwhile the description clamps after five lines.
-- Used Astro `Picture` component for extra image optimization.
 
 ## Commands
 
