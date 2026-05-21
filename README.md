@@ -4,7 +4,7 @@ Pixel-perfect testimonial cards built with Astro and Tailwind, using Biome for f
 
 ## Preview URL
 
-
+https://testimonial-card.coste200910.workers.dev
 
 ## Implementation Details
 
